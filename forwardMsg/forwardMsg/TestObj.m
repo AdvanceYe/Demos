@@ -10,6 +10,11 @@
 #import <objc/runtime.h>
 #import "Person.h"
 
+/*
+ 
+ http://solacode.github.io/2015/10/21/objc-msgSend-%E5%87%BD%E6%95%B0%E5%92%8C-objc-msgForward()%E5%87%BD%E6%95%B0%E4%BD%9C%E7%94%A8/
+ */
+
 void impWhat(id self, SEL cmd) {
     printf("mmp....");
 }
