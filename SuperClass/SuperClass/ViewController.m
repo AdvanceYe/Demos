@@ -31,11 +31,56 @@
         NSLog(@"current class = %@", currentClass);
         NSLog(@"super = %@", class_getSuperclass(currentClass));
     } while ((currentClass = class_getSuperclass(currentClass)));
+
+    [self test1];
+    
+//    [self testClass];
+//
+//    [self testSEL];
+}
+
+- (void)test1 {
+    TestObject *testObj = [TestObject new];
+    Class cls1 = [testObj class];
+    Class cls2_1 = object_getClass(testObj);
+    Class cls2 = object_getClass(cls1);
+    Class cls3 = object_getClass(cls2);
+    Class cls3_1 = object_getClass(cls3);
+    
+    Class cls4 = [TestObject class];
+    Class cls5 = object_getClass([TestObject class]);
     
     
-    [self testClass];
-    
-    [self testSEL];
+    /*
+     2019-03-04 18:24:22.949980+0800 SuperClass[1891:27324] cls = TestObject, pointer = 0x10eda1008, isMeta = 0
+     2019-03-04 18:24:22.950133+0800 SuperClass[1891:27324] cls = TestObject, pointer = 0x10eda1008, isMeta = 0
+     2019-03-04 18:24:22.950288+0800 SuperClass[1891:27324] cls = TestObject, pointer = 0x10eda0fe0, isMeta = 1
+     2019-03-04 18:24:22.950428+0800 SuperClass[1891:27324] cls = NSObject, pointer = 0x110618ee8, isMeta = 1
+     2019-03-04 18:24:22.950577+0800 SuperClass[1891:27324] cls = NSObject, pointer = 0x110618ee8, isMeta = 1
+     2019-03-04 18:24:22.950704+0800 SuperClass[1891:27324] cls = TestObject, pointer = 0x10eda1008, isMeta = 0
+     2019-03-04 18:24:22.950857+0800 SuperClass[1891:27324] cls = TestObject, pointer = 0x10eda0fe0, isMeta = 1
+     
+     总结：
+     Class = [instance class] / [ClassName class] / object_getClass(instance),  isMeta = NO;
+     Meta Class = object_getClass(Class), isMeta = YES..
+     Super Meta Class = object_getClass(Meta Class), isMeta = YES..
+     ...
+     Class变为NSObject
+     NSObject自己的metaClass又变成自己..
+     
+     */
+    [self printIsMeta:cls1];
+    [self printIsMeta:cls2_1];
+    [self printIsMeta:cls2];
+    [self printIsMeta:cls3];
+    [self printIsMeta:cls3_1];
+    [self printIsMeta:cls4];
+    [self printIsMeta:cls5];
+}
+
+- (void)printIsMeta:(Class)cls {
+    BOOL isMeta = class_isMetaClass(cls);
+    NSLog(@"cls = %@, pointer = %p, isMeta = %d", cls, cls, isMeta);
 }
 
 - (void)testClass {
