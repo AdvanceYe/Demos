@@ -57,6 +57,15 @@
         const char *propertyName = property_getName(property);
         
         NSLog(@"--------");
+        /*
+         eg.
+         19-03-05 12:41:15.966579+0800 Property_demo[794:7176] names    T@"NSArray",&,N,V_names
+         2019-03-05 12:41:15.966721+0800 Property_demo[794:7176] >>> count = 4
+         2019-03-05 12:41:15.966904+0800 Property_demo[794:7176] name: T    value: @"NSArray"
+         2019-03-05 12:41:15.967090+0800 Property_demo[794:7176] name: &    value:
+         2019-03-05 12:41:15.967216+0800 Property_demo[794:7176] name: N    value:
+         2019-03-05 12:41:15.967397+0800 Property_demo[794:7176] name: V    value: _names
+         */
         const char *propertyAttributes = property_getAttributes(property);
         NSLog(@"%s\t%s", propertyName, propertyAttributes);
         

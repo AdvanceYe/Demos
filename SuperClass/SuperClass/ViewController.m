@@ -32,11 +32,34 @@
         NSLog(@"super = %@", class_getSuperclass(currentClass));
     } while ((currentClass = class_getSuperclass(currentClass)));
 
-    [self test1];
+//    [self test1];
     
 //    [self testClass];
 //
 //    [self testSEL];
+    
+    [self testNSObject];
+    [self testNSProxy];
+}
+
+- (void)testNSObject {
+    /*
+     总结：NSObject的父类class是nil,meta class是自身
+     */
+    NSObject *obj = [NSObject new];
+    Class cls = [obj class];
+    Class superCls = class_getSuperclass(cls);
+    NSLog(@"superCls of nsobject = %@", superCls);
+}
+
+- (void)testNSProxy {
+    /*
+     总结：NSProxy的父类class是nil
+     */
+    NSProxy *obj = [NSProxy alloc];
+    Class cls = [obj class];
+    Class superCls = class_getSuperclass(cls);
+    NSLog(@"superCls of nsproxy = %@", superCls);
 }
 
 - (void)test1 {
