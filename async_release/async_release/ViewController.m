@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 #import "TestObject.h"
+#import <time.h>
 
 @interface ViewController ()
 
@@ -22,11 +23,20 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     
+    [self testTimeApi];
+    
     _queue = dispatch_queue_create("com.rjoeye.test", DISPATCH_QUEUE_SERIAL);
     
     [self testAsyncRelease];
     
     [self testSyncRelease];
+    
+    NSLog(@"function:%s,\nline:%d,\nfile = %s", __FUNCTION__, __LINE__, __FILE__);
+}
+
+- (void)testTimeApi {
+    int timestamp = (int)time(NULL);
+    NSLog(@"___ time = %d", timestamp);
 }
 
 - (void)testAsyncRelease {

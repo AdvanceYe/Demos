@@ -1,0 +1,578 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FAE5197C223224A900903F17 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FAE5197B223224A900903F17 /* AppDelegate.m */; };
+		FAE5197F223224A900903F17 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAE5197E223224A900903F17 /* ViewController.m */; };
+		FAE51982223224A900903F17 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAE51980223224A900903F17 /* Main.storyboard */; };
+		FAE51984223224AB00903F17 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAE51983223224AB00903F17 /* Assets.xcassets */; };
+		FAE51987223224AB00903F17 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAE51985223224AB00903F17 /* LaunchScreen.storyboard */; };
+		FAE5198A223224AB00903F17 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FAE51989223224AB00903F17 /* main.m */; };
+		FAE51994223224AB00903F17 /* view_autoResizingMaskTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FAE51993223224AB00903F17 /* view_autoResizingMaskTests.m */; };
+		FAE5199F223224AB00903F17 /* view_autoResizingMaskUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FAE5199E223224AB00903F17 /* view_autoResizingMaskUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FAE51990223224AB00903F17 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FAE5196F223224A900903F17 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FAE51976223224A900903F17;
+			remoteInfo = view_autoResizingMask;
+		};
+		FAE5199B223224AB00903F17 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FAE5196F223224A900903F17 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FAE51976223224A900903F17;
+			remoteInfo = view_autoResizingMask;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FAE51977223224A900903F17 /* view_autoResizingMask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = view_autoResizingMask.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAE5197A223224A900903F17 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FAE5197B223224A900903F17 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FAE5197D223224A900903F17 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FAE5197E223224A900903F17 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FAE51981223224A900903F17 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FAE51983223224AB00903F17 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FAE51986223224AB00903F17 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FAE51988223224AB00903F17 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAE51989223224AB00903F17 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FAE5198F223224AB00903F17 /* view_autoResizingMaskTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = view_autoResizingMaskTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAE51993223224AB00903F17 /* view_autoResizingMaskTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = view_autoResizingMaskTests.m; sourceTree = "<group>"; };
+		FAE51995223224AB00903F17 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAE5199A223224AB00903F17 /* view_autoResizingMaskUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = view_autoResizingMaskUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAE5199E223224AB00903F17 /* view_autoResizingMaskUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = view_autoResizingMaskUITests.m; sourceTree = "<group>"; };
+		FAE519A0223224AB00903F17 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FAE51974223224A900903F17 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAE5198C223224AB00903F17 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAE51997223224AB00903F17 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FAE5196E223224A900903F17 = {
+			isa = PBXGroup;
+			children = (
+				FAE51979223224A900903F17 /* view_autoResizingMask */,
+				FAE51992223224AB00903F17 /* view_autoResizingMaskTests */,
+				FAE5199D223224AB00903F17 /* view_autoResizingMaskUITests */,
+				FAE51978223224A900903F17 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FAE51978223224A900903F17 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FAE51977223224A900903F17 /* view_autoResizingMask.app */,
+				FAE5198F223224AB00903F17 /* view_autoResizingMaskTests.xctest */,
+				FAE5199A223224AB00903F17 /* view_autoResizingMaskUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FAE51979223224A900903F17 /* view_autoResizingMask */ = {
+			isa = PBXGroup;
+			children = (
+				FAE5197A223224A900903F17 /* AppDelegate.h */,
+				FAE5197B223224A900903F17 /* AppDelegate.m */,
+				FAE5197D223224A900903F17 /* ViewController.h */,
+				FAE5197E223224A900903F17 /* ViewController.m */,
+				FAE51980223224A900903F17 /* Main.storyboard */,
+				FAE51983223224AB00903F17 /* Assets.xcassets */,
+				FAE51985223224AB00903F17 /* LaunchScreen.storyboard */,
+				FAE51988223224AB00903F17 /* Info.plist */,
+				FAE51989223224AB00903F17 /* main.m */,
+			);
+			path = view_autoResizingMask;
+			sourceTree = "<group>";
+		};
+		FAE51992223224AB00903F17 /* view_autoResizingMaskTests */ = {
+			isa = PBXGroup;
+			children = (
+				FAE51993223224AB00903F17 /* view_autoResizingMaskTests.m */,
+				FAE51995223224AB00903F17 /* Info.plist */,
+			);
+			path = view_autoResizingMaskTests;
+			sourceTree = "<group>";
+		};
+		FAE5199D223224AB00903F17 /* view_autoResizingMaskUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FAE5199E223224AB00903F17 /* view_autoResizingMaskUITests.m */,
+				FAE519A0223224AB00903F17 /* Info.plist */,
+			);
+			path = view_autoResizingMaskUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FAE51976223224A900903F17 /* view_autoResizingMask */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAE519A3223224AB00903F17 /* Build configuration list for PBXNativeTarget "view_autoResizingMask" */;
+			buildPhases = (
+				FAE51973223224A900903F17 /* Sources */,
+				FAE51974223224A900903F17 /* Frameworks */,
+				FAE51975223224A900903F17 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = view_autoResizingMask;
+			productName = view_autoResizingMask;
+			productReference = FAE51977223224A900903F17 /* view_autoResizingMask.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FAE5198E223224AB00903F17 /* view_autoResizingMaskTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAE519A6223224AB00903F17 /* Build configuration list for PBXNativeTarget "view_autoResizingMaskTests" */;
+			buildPhases = (
+				FAE5198B223224AB00903F17 /* Sources */,
+				FAE5198C223224AB00903F17 /* Frameworks */,
+				FAE5198D223224AB00903F17 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FAE51991223224AB00903F17 /* PBXTargetDependency */,
+			);
+			name = view_autoResizingMaskTests;
+			productName = view_autoResizingMaskTests;
+			productReference = FAE5198F223224AB00903F17 /* view_autoResizingMaskTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FAE51999223224AB00903F17 /* view_autoResizingMaskUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAE519A9223224AB00903F17 /* Build configuration list for PBXNativeTarget "view_autoResizingMaskUITests" */;
+			buildPhases = (
+				FAE51996223224AB00903F17 /* Sources */,
+				FAE51997223224AB00903F17 /* Frameworks */,
+				FAE51998223224AB00903F17 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FAE5199C223224AB00903F17 /* PBXTargetDependency */,
+			);
+			name = view_autoResizingMaskUITests;
+			productName = view_autoResizingMaskUITests;
+			productReference = FAE5199A223224AB00903F17 /* view_autoResizingMaskUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FAE5196F223224A900903F17 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = copyCat_yy;
+				TargetAttributes = {
+					FAE51976223224A900903F17 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					FAE5198E223224AB00903F17 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = FAE51976223224A900903F17;
+					};
+					FAE51999223224AB00903F17 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = FAE51976223224A900903F17;
+					};
+				};
+			};
+			buildConfigurationList = FAE51972223224A900903F17 /* Build configuration list for PBXProject "view_autoResizingMask" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FAE5196E223224A900903F17;
+			productRefGroup = FAE51978223224A900903F17 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FAE51976223224A900903F17 /* view_autoResizingMask */,
+				FAE5198E223224AB00903F17 /* view_autoResizingMaskTests */,
+				FAE51999223224AB00903F17 /* view_autoResizingMaskUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FAE51975223224A900903F17 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAE51987223224AB00903F17 /* LaunchScreen.storyboard in Resources */,
+				FAE51984223224AB00903F17 /* Assets.xcassets in Resources */,
+				FAE51982223224A900903F17 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAE5198D223224AB00903F17 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAE51998223224AB00903F17 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FAE51973223224A900903F17 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAE5197F223224A900903F17 /* ViewController.m in Sources */,
+				FAE5198A223224AB00903F17 /* main.m in Sources */,
+				FAE5197C223224A900903F17 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAE5198B223224AB00903F17 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAE51994223224AB00903F17 /* view_autoResizingMaskTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAE51996223224AB00903F17 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAE5199F223224AB00903F17 /* view_autoResizingMaskUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FAE51991223224AB00903F17 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FAE51976223224A900903F17 /* view_autoResizingMask */;
+			targetProxy = FAE51990223224AB00903F17 /* PBXContainerItemProxy */;
+		};
+		FAE5199C223224AB00903F17 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FAE51976223224A900903F17 /* view_autoResizingMask */;
+			targetProxy = FAE5199B223224AB00903F17 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FAE51980223224A900903F17 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAE51981223224A900903F17 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FAE51985223224AB00903F17 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAE51986223224AB00903F17 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FAE519A1223224AB00903F17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FAE519A2223224AB00903F17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FAE519A4223224AB00903F17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = view_autoResizingMask/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.qiuqiushop.view-autoResizingMask";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FAE519A5223224AB00903F17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = view_autoResizingMask/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.qiuqiushop.view-autoResizingMask";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FAE519A7223224AB00903F17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = view_autoResizingMaskTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.qiuqiushop.view-autoResizingMaskTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/view_autoResizingMask.app/view_autoResizingMask";
+			};
+			name = Debug;
+		};
+		FAE519A8223224AB00903F17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = view_autoResizingMaskTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.qiuqiushop.view-autoResizingMaskTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/view_autoResizingMask.app/view_autoResizingMask";
+			};
+			name = Release;
+		};
+		FAE519AA223224AB00903F17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = view_autoResizingMaskUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.qiuqiushop.view-autoResizingMaskUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = view_autoResizingMask;
+			};
+			name = Debug;
+		};
+		FAE519AB223224AB00903F17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = view_autoResizingMaskUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.qiuqiushop.view-autoResizingMaskUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = view_autoResizingMask;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FAE51972223224A900903F17 /* Build configuration list for PBXProject "view_autoResizingMask" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAE519A1223224AB00903F17 /* Debug */,
+				FAE519A2223224AB00903F17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAE519A3223224AB00903F17 /* Build configuration list for PBXNativeTarget "view_autoResizingMask" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAE519A4223224AB00903F17 /* Debug */,
+				FAE519A5223224AB00903F17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAE519A6223224AB00903F17 /* Build configuration list for PBXNativeTarget "view_autoResizingMaskTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAE519A7223224AB00903F17 /* Debug */,
+				FAE519A8223224AB00903F17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAE519A9223224AB00903F17 /* Build configuration list for PBXNativeTarget "view_autoResizingMaskUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAE519AA223224AB00903F17 /* Debug */,
+				FAE519AB223224AB00903F17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FAE5196F223224A900903F17 /* Project object */;
+}
